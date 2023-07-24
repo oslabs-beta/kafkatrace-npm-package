@@ -5,7 +5,7 @@
     "dist/**/*",
     "src/**/*"
   ],
-  "description": "Trace of Apache Kafka systems in Javascript",
+  "description": "Trace Apache Kafka systems in Javascript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oslabs-beta/kafkatrace-npm-package"
+    "url": "git+https://github.com/oslabs-beta/kafkatrace-npm-package.git"
   },
   "keywords": [
     "Kafka",
@@ -30,22 +30,10 @@
   ],
   "author": "KafkaTrace <kafkatrace@gmail.com>",
   "contributors": [
-    {
-      "name": "Wai San Gu",
-      "url": "https://github.com/waisangu"
-    },
-    {
-      "name": "Navdeep Simmak",
-      "url": "https://github.com/NaviSimmak"
-    },
-    {
-      "name": "Alston Nguyen",
-      "url": "https://github.com/alstonnguyen"
-    },
-    {
-      "name": "Felix Chen",
-      "url": "https://github.com/flexzchen"
-    }
+    "Wai San Gu (https://github.com/waisangu)",
+    "Navdeep Simmak (https://github.com/NaviSimmak)",
+    "Alston Nguyen (https://github.com/alstonnguyen)",
+    "Felix Chen (https://github.com/flexzchen)"
   ],
   "license": "MIT",
   "bugs": {
