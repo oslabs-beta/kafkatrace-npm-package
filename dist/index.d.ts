@@ -1,2 +1,2 @@
 export let composer: typeof import("./composer.js");
-export let tracing: typeof import("./tracing.js");
+export let tracer: typeof import("./tracer.js");

@@ -8,7 +8,7 @@ var SemanticResourceAttributes = require('@opentelemetry/semantic-conventions').
 var HttpInstrumentation = require("@opentelemetry/instrumentation-http").HttpInstrumentation;
 var ExpressInstrumentation = require("@opentelemetry/instrumentation-express").ExpressInstrumentation;
 var KafkaJsInstrumentation = require('opentelemetry-instrumentation-kafkajs').KafkaJsInstrumentation;
-function tracing(serviceName) {
+function tracer(serviceName) {
     var _a;
     var traceExporter = new OTLPTraceExporter({
         // optional - default url is http://localhost:4318/v1/traces
@@ -42,4 +42,4 @@ function tracing(serviceName) {
             .finally(function () { return process.exit(0); });
     });
 }
-module.exports = tracing;
+module.exports = tracer;
