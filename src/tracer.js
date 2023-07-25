@@ -8,7 +8,7 @@ const { HttpInstrumentation } = require("@opentelemetry/instrumentation-http");
 const { ExpressInstrumentation } = require("@opentelemetry/instrumentation-express");
 const { KafkaJsInstrumentation } = require('opentelemetry-instrumentation-kafkajs');
 
-function tracing(serviceName) {
+function tracer(serviceName) {
   
   const traceExporter = new OTLPTraceExporter({
     // optional - default url is http://localhost:4318/v1/traces
@@ -46,4 +46,4 @@ function tracing(serviceName) {
   });
 }
 
-module.exports = tracing;
+module.exports = tracer;
