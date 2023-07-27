@@ -50,6 +50,9 @@ You must have Docker Desktop installed and running!
     ```
 - **STEP 4**: Log in to the website and click on UI buttons.
 
+![demo-vid](https://github.com/oslabs-beta/kafkatrace-npm-package/assets/101201710/393720f4-597f-4439-87de-8b8fd60e655a)
+
+
 ## Authors
 | Developed By |                                                                     Github                                                                      |                                                                   LinkedIn                                                                    |
 | :----------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------: |
