@@ -1,7 +1,4 @@
 # KafkaTrace
-
-
-=======
 <div align="center">
 <img width="364" alt="image" src="https://github.com/oslabs-beta/kafkatrace/assets/77164621/e296fdc0-dcbf-406b-a996-e63a7c22539b">
 </div>
@@ -31,6 +28,9 @@ For more information, [visit our website](#).
 - Authentication for Google and GitHub OAuth.
 
 ## User Guide
+#### Prerequisites:
+You must have Docker Desktop installed and running!
+<br></br>	
 
 **IMPORTANT REMINDER**: Make sure the Kafka Cluster you want to trace has a working producer and consumer client.
 
@@ -54,7 +54,7 @@ For more information, [visit our website](#).
 | Developed By |                                                                     Github                                                                      |                                                                   LinkedIn                                                                    |
 | :----------: | :---------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------: |
 |  Felix Chen  |    [![Github](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/flexzchen)    | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felixzchen/) |
-| Navdeep Simmack | [![Github](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NaviSimmak) |  [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/)  |
+| Navdeep Simmack | [![Github](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NaviSimmak) |  [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/Navdeep-Simmak)  |
 |  Wai San Gu  |  [![Github](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/waisangu)   | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/waisangu/) |
 | Alston Nguyen  |  [![Github](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alstonnguyen)   |  [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alston-s-nguyen/)   |
 
