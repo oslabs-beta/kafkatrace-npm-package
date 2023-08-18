@@ -1,6 +1,6 @@
 # KafkaTrace
 <div align="center">
-<img width="364" alt="image" src="https://github.com/oslabs-beta/kafkatrace/assets/77164621/e296fdc0-dcbf-406b-a996-e63a7c22539b">
+<img width="364" alt="image" src="https://github.com/oslabs-beta/KafkaTrace/blob/dev/public/assets/LogoWithText.jpg">
 </div>
 
 ## Table of Contents
