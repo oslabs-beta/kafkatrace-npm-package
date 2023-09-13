@@ -1,6 +1,6 @@
 # KafkaTrace
 <div align="center">
-<img width="364" alt="image" src="https://github.com/oslabs-beta/kafkatrace/assets/77164621/e296fdc0-dcbf-406b-a996-e63a7c22539b">
+<img width="364" alt="image" src="https://github.com/oslabs-beta/KafkaTrace/blob/dev/public/assets/LogoWithText-Blue.jpg?raw=true">
 </div>
 
 ## Table of Contents
@@ -12,7 +12,7 @@
 - [License](#license)
 
 ## About KafkaTrace
-KafkaTrace is an open-source product whose goal is to provide developers to streamline the tracing process locally without having to source through different technology documentation. This documentation will include how to implement OpenTelemetry, Jaeger, Zipkin, and Prometheus.
+Based on OpenTelemetry's standards, KafkaTrace streamlines the process of visualizing your Apache Kafka Clients by packaging together the necessary instrumentation files with popular open source monitoring UIs (Jaeger, Zipkin, and Prometheus). This documentation describes how to implement KafkaTrace.
 
 For more information, [visit our website](#).
 
@@ -34,21 +34,21 @@ You must have Docker Desktop installed and running!
 
 **IMPORTANT REMINDER**: Make sure the Kafka Cluster you want to trace has a working producer and consumer client.
 
-- **STEP 1**: Install the npm package
+- **STEP 1**: Install npm package
     ```bash
     npm install kafkatrace
     ```
-- **STEP 2**: Import and invoke to run the required Docker containers:
+- **STEP 2**: Build and run the preconfigured containers
     ```typescript
     import { composer } from 'kafkatrace';
     composer();
     ```
-- **STEP 3**: Import in each Producer and Consumer client and provide the 'Service Name' for the trace:
+- **STEP 3**: Add to each service file and replace [Service Name] as required
     ```typescript
     import { tracer } from 'kafkatrace';
     tracer('[Service Name]');
     ```
-- **STEP 4**: Log in to the website and click on UI buttons.
+- **STEP 4**: Navigate to localhost port: 16686 for Jaeger, 9411 for Zipkin, 9090 for Prometheus or simply login to the website
 
 ![demo-vid](https://github.com/oslabs-beta/kafkatrace-npm-package/assets/101201710/393720f4-597f-4439-87de-8b8fd60e655a)
 
@@ -75,7 +75,7 @@ Distributed under MIT License. See `LICENSE.txt` for more information.
 [Zipkin-url]:https://zipkin.io/
 [Jaeger]:https://img.shields.io/badge/Jaeger-%23F46800.svg?style=for-the-badge&logo=Jaeger&logoColor=white
 [Jaeger-url]:https://www.jaegertracing.io/
-[OpenTelemetry]:https://img.shields.io/badge/OpenTelemetry-%235755D9.svg?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAxMCAxMCIgdmlld0JveDdyYXBwZXI9IjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gPHBhdGggZD0iTTEuNzg0MzUgNWMtMi4wNzY3NC02Ljg3ODg3LTYuODc4ODgtMTAuNTEzLTExLjQ0NTMtMTAuNTEzUzExLjQ0NTMgMCAxLjc4NDM1IDAgOWMtMy42NzE3MiAwLTcuMDg0NTcgMy41OTcyNS03LjA4NDU3LTIuMTA1ODMtMi4xMDU4My0zLjg2NzU0IDAtNy4wODY1MSAzLjU5NzI1LTcuMDg1NzYgMi4wNTg0My0yLjEwNTgzIDMuODY3NTQtNy4wODU3NCA3LjA4NTc1LTcuMDg1NzRoMy4yNzczMSIgZmlsbD0ibm9uZSIvPjwvc3ZnPgo=
+[OpenTelemetry]:https://img.shields.io/badge/OpenTelemetry-3d348b?style=for-the-badge&logo=opentelemetry&logoColor=white
 [OpenTelemetry-url]:https://opentelemetry.io/
 [JavaScript]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
 [JavaScript-url]: https://www.javascript.com/

@@ -1,6 +1,6 @@
 {
   "name": "kafkatrace",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "files": [
     "dist/**/*",
     "src/**/*"
@@ -39,7 +39,7 @@
   "bugs": {
     "url": "https://github.com/oslabs-beta/kafkatrace-npm-package/issues"
   },
-  "homepage": "https://github.com/oslabs-beta/kafkatrace-npm-package#readme",
+  "homepage": "https://kafkatrace.com",
   "dependencies": {
     "@opentelemetry/exporter-metrics-otlp-proto": "^0.41.0",
     "@opentelemetry/instrumentation-express": "^0.33.0",
